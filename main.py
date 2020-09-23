@@ -4,8 +4,8 @@ import zipfile as zf
 # Set these manually before running the program.
 # "Rootdir is the directory where all the folders live.
 # Assignment is the title of the assignment. It can be whatever you want.
-rootdir = "/Users/jake/Desktop/HW 1"
-assignment = 'HW1'
+rootdir = "PATH"
+assignment = 'HW'
 
 # Deletes stranded .DS_Store files
 for subdir, dirs, files in os.walk(rootdir):
